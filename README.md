@@ -12,4 +12,4 @@ Links
 
 Final project submission (Presentation): http://rpubs.com/Dataanalyst56/567431
 
-Presentation and source code files are available on GitHub: https://github.com/sonisa/Datascience-Capstone-Project
+Shinyapp and source code files are available on GitHub: https://github.com/sonisa/Datascience-Capstone-Project
