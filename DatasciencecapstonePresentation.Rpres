@@ -3,7 +3,7 @@ Data science capstone Presentation
 author: Sonisa Sharma
 date: 1-20-2019
 autosize: true
-* [Next Word Prediction Shiny App](https://scitator.shinyapps.io/NextWordPredictionApp/)
+* [Next Word Prediction Shiny App](https://sonisa56.shinyapps.io/data/)
 * [GitHub url](https://github.com/sonisa/Datascience-Capstone-Project)
 
 Predict the Next word
