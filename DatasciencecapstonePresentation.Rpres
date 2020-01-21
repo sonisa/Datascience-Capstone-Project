@@ -22,18 +22,26 @@ The dataset for this word prediction app was gathered from three sources:
 * News
 * Twitter
 
-Data was preprocessed and tokenized with *quanteda* library.
+Data was preprocessed and tokenized with *quanteda* library. 
 
-Slide With Code
+3. Next Word Predict
 ========================================================
 
+Next Word Predict is a Shiny app that uses a text prediction algorithm to predict the next word(s) based on text entered by a user.
+
+The application will suggest the next word in a sentence using an n-gram algorithm. An n-gram is a contiguous sequence of n words from a given sequence of text.
+
+The text used to build the predictive text model came from a large corpus of blogs, news and twitter data. N-grams were extracted from the corpus and then used to build the predictive text model.
+
+Various methods were explored to improve speed and accuracy using natural language processing and text mining techniques.
+
+4. Result
+========================================================
 The code for this project is at [github repo] at "https://github.com/sonisa/Datascience-Capstone-Project"
 
-Processing of Data
-========================================================
+### How it works
+Enter your sentence without the final word to be predicted, inside Text Area that can be found in the Prediction tab. Copy and paste is allowed. The entered sentence is parsed and cleaned and the predicted word is automatically displayed.
 
-A subset of the original data was sampled from the three sources (blogs,twitter and news) which is then merged into one.
-Next, data cleaning is done by conversion to lowercase, strip white space, and removing punctuation and numbers.
-The corresponding n-grams are then created (Quadgram,Trigram and Bigram).
-Next, the term-count tables are extracted from the N-Grams and sorted according to the frequency in descending order.
-Lastly, the n-gram objects are saved as R-Compressed files (.RData files).
+Press one of Prediction button to append predicted word to text area an do further predictions.
+
+Press Clear to clear the text area.
